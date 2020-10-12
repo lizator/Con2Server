@@ -1,0 +1,556 @@
+/* Basic stylesheet */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  background: url('../img/base_site/woven-cloth-960_720.jpg');
+
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 2.5rem;
+  font-family: "Spicy Rice";
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Spicy Rice";
+  text-shadow: 1px 1px 3px #000;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+
+h3 {
+  color: #484848;
+  font-size: 1.5rem;
+  font-family: "Spicy Rice";
+  text-align: center;
+  padding-top: 0.75rem;
+}
+
+h4 {
+  color: #484848;
+  font-size: 1.5rem;
+  font-family: "Spicy Rice";
+  text-align: left;
+  padding-top: 0.75rem;
+}
+
+p {
+  padding-bottom: 0.75rem;
+}
+
+.btn-container{
+  text-align: center;
+}
+
+.btn-primary {
+  display: inline-block;
+  color: #fff;
+  font-family: "Atma";
+  font-size: 1.5rem;
+  white-space: normal; /* word wrap */
+  margin-bottom: 10px;
+}
+
+.wholesome_msg_container {
+  border: 3px solid #0f0;
+  border-radius: 8px;
+  padding: 0px;
+  background-color: #A0D0A0;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  width: 35rem;
+  max-width: calc(100vw - 20px);
+
+  overflow: auto;
+}
+
+.wholesome_msg {
+  padding: 2px;
+  margin: 0px;
+}
+
+.wholesome_msg > h2{
+  color: #121212;
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: none;
+}
+.wholesome_msg > p{
+  color: #121212;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+}
+
+.wholesome_msg > img {
+  max-height: 12rem;
+  max-width: 20vw;
+  border-radius: 4px;
+  margin: 5px;
+  float: right;
+}
+
+.alert_msg {
+  border: 2px solid #f00;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #FA8072;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 40rem;
+}
+
+.alert_msg > h2{
+  color: #121212;
+  text-align: center;
+  font-size: 1.5rem;
+  text-shadow: none;
+}
+.alert_msg > p{
+  color: #121212;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ###################### */
+/*        hero img        */
+/* ###################### */
+
+.hero {
+  background: url('../img/content/hovedsal.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 110%;
+
+  /* css flexbox */
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;*/
+}
+
+.hero > h1 {
+  text-align: center;
+  color: #91100f;
+  font-size: 4rem;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+
+  -moz-text-stroke-color: #D4AF37;
+  -webkit-text-stroke-color: #D4AF37;
+  -moz-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+}
+
+.hero > h2 {
+  text-align: center;
+  color: #484848;
+  font-size: 2.5rem;
+  font-family: "Spicy Rice";
+  padding-top: 2.5rem;
+
+  -moz-text-stroke-color: #D4AF37;
+  -webkit-text-stroke-color: #D4AF37;
+  -moz-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+}
+
+/* fallback outline */
+@supports not ((-webkit-text-stroke-color: #666)
+  and
+  (-webkit-text-fill-color: white))
+  or
+  ((-moz-text-stroke-color: #666)
+  and
+  (-moz-text-fill-color: white)) {
+
+  .hero > h1 {
+    text-shadow:
+      -2px -2px 0 #D4AF37,
+      2px -2px 0 #D4AF37,
+      -2px 2px 0 #D4AF37,
+      2px 2px 0 #D4AF37;
+  }
+  .hero > h2 {
+    text-shadow:
+      -2px -2px 0 #D4AF37,
+      2px -2px 0 #D4AF37,
+      -2px 2px 0 #D4AF37,
+      2px 2px 0 #D4AF37;
+  }
+}
+
+.hero_text {
+  font-size: 1.15rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #eee;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+  padding: 12px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+
+  width: 35rem;
+  max-width: calc(100vw - 20px);
+}
+
+.hero_text > h2 {
+  font-family: "Arial"; // business theme
+  font-weight: bold;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+  text-shadow: none;
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.hero_text > p {
+  font-family: "Times New Roman"; // business theme
+  text-align: left;
+  padding: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 0;
+  margin-bottom: 0.75rem;
+}
+
+/*images as part of the hero text*/
+.hero_text > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 20rem;
+  max-width: calc(100% - 50px);
+  border-radius: 0;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+}
+
+/* ############################## */
+/*            subpages            */
+/* ############################## */
+
+.subpage_heading {
+  text-align: center;
+}
+
+.subpage_img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: calc(100% - 10px);
+  max-height: 50vh;
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+}
+
+.subpage_content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 40rem;
+
+  background-color: #dcd7d6;
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+}
+
+.subpage_content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 25vh;
+  max-width: calc(100% - 40px);
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.66);
+}
+
+.subpage_content > h2 {
+  color: #484848;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.75rem;
+  text-shadow: none;
+}
+
+.subpage_content > h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.subpage_content > h4 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.subpage_content > p {
+  text-align: left;
+  padding: 0;
+}
+
+.subpage_highlight {
+  text-align: center;
+}
+
+.subpage_highlight > p {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "Atma";
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  white-space: normal; /* word wrap */
+
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.66);
+}
+
+/* ############################## */
+/*           activities           */
+/* ############################## */
+
+.activity_heading {
+  text-align: center;
+}
+
+.activity_img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: calc(100% - 10px);
+  max-height: 50vh;
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+}
+
+.activity_content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 40rem;
+
+  background-color: #dcd7d6;
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.66);
+}
+
+.activity_content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 25vh;
+  max-width: calc(100% - 40px);
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.66);
+}
+
+/*disable h1 in the activity text; h1 reserved for top-of-page title*/
+.activity_content > h1 {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.activity_content > h2 {
+  color: #484848;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.75rem;
+  text-shadow: none;
+}
+
+.activity_content > h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.activity_content > p {
+  text-align: left;
+  padding: 0;
+}
+
+.activity_highlight {
+  text-align: center;
+}
+
+.activity_highlight > p {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "Atma";
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  white-space: normal; /* word wrap */
+
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.66);
+}
+
+/* ####################### */
+/*     navigation menu     */
+/* ####################### */
+
+/* "Con2" */
+.navbar-brand {
+  font-family: "Spicy Rice";
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* "hvor skal vi hen?" */
+.navbar-descriptor, .navbar-descriptor:hover {
+  font-family: "Atma";
+  text-decoration: none;
+  font-size: 1rem;
+  padding-right: 5rem;
+  padding-left: 0rem;
+  color: rgba(255,255,255,.5);
+}
+
+/* nav-item active */
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  font-family: "Atma";
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 0rem;
+  padding-top: 0.5rem;
+  list-style-type: none;
+}
+
+/* regular items */
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Atma";
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 0rem;
+  list-style-type: none;
+}
+
+/* things in drop-down menu */
+.dropdown-item {
+
+}
+
+
+/* ############################ */
+/*     screen size handling     */
+/* ############################ */
+
+/* desktop */
+
+/* front page, slim */
+@media screen and (min-width: 32rem) {
+
+
+  .wholesome_msg_container {
+  //  width: 30rem;
+  }
+
+  .priority_msg {
+  //  width: 30rem;
+  }
+
+  .hero_text {
+  //  width: calc(15rem - 10px);
+  }
+
+}
+
+/* content pages, spacious */
+@media screen and (min-width: 42rem) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero > h1 {
+    font-size: 6rem;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .hero > h2 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  .wholesome_msg > h3 {
+    font-size: 1.5rem;
+  }
+
+  .priority_msg > h3 {
+    font-size: 1.5rem;
+  }
+
+  /* "Con2" */
+  .navbar-brand {
+    font-family: "Spicy Rice";
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  /* "hvor skal vi hen?" */
+  .navbar-descriptor, .navbar-descriptor:hover {
+    font-size: 1.5rem;
+    padding-right: 5rem;
+    padding-left: 0rem;
+  }
+
+  .activity_content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .activity_highlight > p {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,302 @@
+/* Basic stylesheet */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  background: url('../img/base_site/woven-cloth-960_720.jpg');
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 2.5rem;
+  font-family: "Spicy Rice";
+  text-align: center;
+  padding-top: 2rem;
+
+  padding-left: 16px;
+  padding-right:  16px;
+}
+
+h3 {
+  color: #484848;
+  font-size: 1.5rem;
+  font-family: "Spicy Rice";
+  text-align: left;
+  padding-top: 0.75rem;
+
+  padding-left: 16px;
+  padding-right:  16px;
+}
+
+p {
+  padding-left: 16px;
+  padding-right:  16px;
+}
+
+.btn-primary {
+  color: #fff;
+  font-family: "Atma";
+  font-size: 1.5rem;
+  margin: 0px;
+  text-align: center;
+
+  position: relative;
+  left: 50%;
+  transform: translateX(calc(-50%));
+}
+
+.priority_msg {
+  border: 2px solid #f00;
+  border-radius: 8px;
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: #FA8072;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.priority_msg > h3{
+  color: #121212;
+  text-align: center;
+}
+.priority_msg > p{
+  color: #121212;
+  text-align: center;
+}
+
+/* ###################### */
+/*        hero img        */
+/* ###################### */
+
+.hero {
+  background: url('../img/content/hovedsal.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+
+  /* css flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hero > h1 {
+  color: #91100f;
+  padding-top: 0rem;
+
+  text-shadow:
+    -1px -1px 0 #D4AF37,
+    1px -1px 0 #D4AF37,
+    -1px 1px 0 #D4AF37,
+    1px 1px 0 #D4AF37;
+}
+
+.hero > h2 {
+  color: #484848;
+  /*text-shadow: 1px 1px 3px #000;*/
+  font-size: 2rem;
+  font-family: "Spicy Rice";
+  padding-top: 2rem;
+  padding-left: 10px;
+  padding-right:  10px;
+  padding-bottom: 0rem;
+
+  text-shadow:
+    -1px -1px 0 #D4AF37,
+    1px -1px 0 #D4AF37,
+    -1px 1px 0 #D4AF37,
+    1px 1px 0 #D4AF37;
+}
+
+.hero_text {
+  font-family: "Atma";
+  font-size: 1.15rem;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: #eee;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hero_text > p {
+  padding: 0px;
+}
+
+/*
+.hero > .btn-primary {
+  color: #fff;
+  font-family: "Schoolbell";
+  font-size: 1.5rem;
+}
+*/
+
+/* ############################## */
+/*        activity content        */
+/* ############################## */
+
+
+.activity_img {
+  position: relative;
+  left: 50%;
+  transform: translateX(calc(-10px - 50%));
+  max-height: 60%;
+  max-width: calc(100% - 10px);
+  margin: 10px;
+
+  border: 1.5px solid #D4AF37;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25), 0 1px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.content_activity {
+  border: 1.5px solid #D4AF37;
+  border-radius: 8px;
+  padding: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background-color: #eee;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.85);
+
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
+.content_activity > h1 {
+  font-size: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.content_activity > p {
+  text-align: left;
+}
+
+/* ####################### */
+/*     navigation menu     */
+/* ####################### */
+
+/* "Con2" */
+.navbar-brand {
+  font-family: "Spicy Rice";
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* "hvor skal vi hen?" */
+.navbar-descriptor, .navbar-descriptor:hover {
+  font-family: "Atma";
+  text-decoration: none;
+  font-size: 1rem;
+  padding-right: 5rem;
+  padding-left: 0rem;
+  color: rgba(255,255,255,.25);
+}
+
+/* nav-item active */
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  font-family: "Atma";
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 0rem;
+  padding-top: 0.5rem;
+}
+
+/* regular items */
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Atma";
+  font-size: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 0rem;
+}
+
+/* things in drop-down menu */
+.dropdown-item {
+
+}
+
+
+/* ############################ */
+/*     screen size handling     */
+/* ############################ */
+
+/* desktop */
+@media screen and (min-width: 32rem) {
+  .hero_text {
+    width: 30rem;
+  }
+
+  .priority_msg {
+    width: 30rem;
+  }
+
+  .hero_text > p {
+
+  }
+}
+@media screen and (min-width: 42rem) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero > h1 {
+    font-size: 4rem;
+    padding-top: 0.25rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .hero > h2 {
+    font-size: 2rem;
+    padding-top: 3rem;
+  }
+
+  .hero > p {
+    width: 40rem;
+  }
+
+
+
+  /* "Con2" */
+  .navbar-brand {
+    font-family: "Spicy Rice";
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  /* "hvor skal vi hen?" */
+  .navbar-descriptor, .navbar-descriptor:hover {
+    font-family: "Atma";
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-right: 5rem;
+    padding-left: 0rem;
+    color: rgba(255,255,255,.25);
+  }
+
+  .content_activity {
+    margin-left: calc(50% - 20rem);
+    margin-right: calc(50% - 20rem);
+  }
+
+  .content_activity > h1 {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .content_activity > p {
+    width: 40rem;
+  }
+}
