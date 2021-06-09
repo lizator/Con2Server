@@ -11,7 +11,7 @@
           <h2>Kalder alle søde coniner!</h2>
 
           <p style="margin-bottom: 16px">Con2-arrangørerne har (på behørig afstand) omfavnet idéen om noget online hygge. Dette gør vi lørdag d. 30/1 vha. <b>Discord</b>! Vi har sørget for 2 scenarier og 2 spilblokke samt lidt hygge imellem.</p>
-          <p style="margin-bottom: 8px">Kom endelig og kom glade, og <b>har I lyst til at hjælpe som spilmester</b>, om det er jeres eget scenarie eller en af de planlagte, er I meget velkomne, og vi lover at give jeres navn en sej farve på serveren.</p>
+          <p style="margin-bottom: 8px">Kom endelig og kom glade, og <b>har I lyst til at hjælpe som spilleder</b>, om det er jeres eget scenarie eller en af de planlagte, er I meget velkomne, og vi lover at give jeres navn en sej farve på serveren.</p>
           <p style="margin-bottom: 8px">Link til <a href="https://fb.me/e/PvZ9KF3d">Facebook</a></p>
           <p style="margin-bottom: 8px">Vi glæder til at se jer <b>CON</b>line</p>
 
