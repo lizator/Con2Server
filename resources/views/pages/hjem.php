@@ -8,17 +8,12 @@
     <div class="wholesome_msg_container">
       <div class="wholesome_msg">
 
+          <h2>Kalder alle søde coniner!</h2>
 
-          <h1 style="margin: auto; font-size: 56px">MoseCONnen Brygger 2!</h1>
-
-          <img alt="Foggy swamp" src="../../../img/content/foggy.jpg" style="margin-top: 8px">
-
-          <p style="margin-bottom: 16px; margin-top: 16px">Con2-arrangørene er kommet ud af MoseCONnens mose!</p>
-          <p style="margin-bottom: 30px">Vi blev fanget af et eventyr, som i kan følge med i det på <a href="https://www.facebook.com/Con2.dk">Facebook</a>!</p>
-          <p style="margin-bottom: 8px">Vi er tilbage og vi vil invitere jer med på vores næste eventyr!</p>
-          <p style="margin-bottom: 8px">Hop ind og kig på alle vores fine aktiviteter! (enkelte kommer der mere information på snart)</p>
-          <p style="margin-bottom: 8px">tilmeldingen er åben til vi får 50 tilmeldinger! <b>CON-ON!</b></p>
-
+          <p style="margin-bottom: 16px">Con2-arrangørerne har (på behørig afstand) omfavnet idéen om noget online hygge. Dette gør vi lørdag d. 30/1 vha. <b>Discord</b>! Vi har sørget for 2 scenarier og 2 spilblokke samt lidt hygge imellem.</p>
+          <p style="margin-bottom: 8px">Kom endelig og kom glade, og <b>har I lyst til at hjælpe som spilleder</b>, om det er jeres eget scenarie eller en af de planlagte, er I meget velkomne, og vi lover at give jeres navn en sej farve på serveren.</p>
+          <p style="margin-bottom: 8px">Link til <a href="https://fb.me/e/PvZ9KF3d">Facebook</a></p>
+          <p style="margin-bottom: 8px">Vi glæder til at se jer <b>CON</b>line</p>
 
       </div>
   </div>
