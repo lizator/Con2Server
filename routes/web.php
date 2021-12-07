@@ -101,6 +101,12 @@ $router->get('betaling', function() use ($router) {
   return view('mainview', ['navbar' => $navbar, 'page' => 'betaling']);
 });
 
+$router->get('om_con2', function() use ($router) {
+    $routes = ActivitiesRoutes();
+    $navbar = view('navbar', ['page' => 'om_con2'], ['routes' => $routes]);
+    return view('mainview', ['navbar' => $navbar, 'page' => 'om_con2']);
+});
+
 
 
 $router->get('routingtest', function () use ($router) {

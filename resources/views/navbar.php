@@ -51,6 +51,9 @@
       <?php if ($page == 'betaling') {echo '<li class="nav-item active">';} else {echo '<li class="nav-item">';} ?>
         <a class="nav-link" href="/betaling">Betaling!</a> <!-- enabled version -->
       </li>
+      <?php if ($page == 'om_con2') {echo '<li class="nav-item active">';} else {echo '<li class="nav-item">';} ?>
+        <a class="nav-link" href="/om_con2">Om Con2!</a> <!-- enabled version -->
+      </li>
     </ul>
     <!--
     <form class="form-inline my-2 my-lg-0">
